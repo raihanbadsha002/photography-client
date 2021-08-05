@@ -24,7 +24,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg  navbar-dark">
           <div className="container">
             <Link className="navbar-brand" to="/">
-              <span class="text-uppercase">
+              <span className="text-uppercase">
                 <FontAwesomeIcon icon={faCameraRetro} /> Photography
               </span>
             </Link>
