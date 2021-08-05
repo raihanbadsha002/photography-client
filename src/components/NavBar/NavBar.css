@@ -1,0 +1,41 @@
+.nav__section {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+.custom-nav-link {
+  position: relative;
+  color: #e4e4e4 !important;
+}
+.custom-nav-link:after {
+  content: "";
+  height: 4%;
+  left: 7px;
+  top: 35px;
+  width: 80px;
+  background-color: #ffffff;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  transform: scaleX(2);
+}
+.custom-nav-link:hover:after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+.custom-nav-link:before {
+  content: "";
+  height: 4%;
+  left: 7px;
+  top: 40px;
+  width: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+  transform: scaleX(2);
+}
+.custom-nav-link:hover:before {
+  transform: scaleX(1);
+  opacity: 1;
+}

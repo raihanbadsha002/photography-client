@@ -1,0 +1,33 @@
+.photo_header_btn {
+  border: 2px solid #fff;
+  letter-spacing: 4px;
+}
+.photo__card {
+  width: 26rem;
+}
+@media (max-width: 1024px) {
+  .photo__card {
+    width: 30rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo__card {
+    width: 22rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .photo__card {
+    width: 34rem;
+  }
+}
+@media (max-width: 360px) {
+  .photo__card {
+    width: 20.5rem;
+  }
+  .photo_header_btn {
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+  }
+}

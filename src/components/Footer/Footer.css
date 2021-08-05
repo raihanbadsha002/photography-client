@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+  .footer__text {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 360px) {
+  .footer__text {
+    font-size: 0.4rem;
+  }
+}

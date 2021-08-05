@@ -1,0 +1,24 @@
+.sidebar li {
+  margin-bottom: 1.7em;
+}
+.sidebar span {
+  margin-left: 1em;
+}
+.sidebar li:hover span {
+  display: inline-block;
+  transform: translate(5px);
+  transition: all 0.5s;
+}
+.sidebar {
+  height: 100vh;
+}
+@media (max-width: 576px) {
+  .sidebar {
+    height: 20vh;
+  }
+}
+@media (max-width: 360px) {
+  .sidebar {
+    height: 30vh;
+  }
+}
